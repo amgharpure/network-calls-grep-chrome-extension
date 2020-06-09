@@ -1,0 +1,22 @@
+#clear-button {
+    background-color: dimgray;
+    color: white;
+    width: 50;
+    text-align: center;
+    margin-top: 5;
+    margin-bottom: 5;
+}
+
+#clear-button:hover {
+  cursor : pointer
+}
+
+.greenHighlight {
+  animation: flashGreen 2s;
+}
+
+@keyframes flashGreen {
+  50% {
+  	background-color:green;
+  }
+}
